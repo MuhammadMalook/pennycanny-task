@@ -1,0 +1,54 @@
+@media (max-width: 420.98px) { 
+    
+.container > .top {
+        height: 600px;
+    }
+.top > .jessica_info{
+      
+    padding: 0%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column
+
+       
+    }
+    .jessica > .info{
+        display: none !important;
+    }
+
+    .jessica_info > .mob_view {
+       display:block;
+       width:16rem;
+       
+    }
+    .jessica_info > .buton_view {
+        display: block !important;
+    }
+
+    .jessica_info > .name {
+        font-size: 24px;
+        margin-top: 2%;
+    }
+    .top > .empty {
+        display: none;
+    }
+    .container > .d{
+        display: none;
+    }
+
+    .container > .bottom  {
+        padding: 0%;
+        margin-top: 17%;
+        
+    }
+
+  .bottom > .view_btn > .dn-btn {
+    display: block !important;
+
+  }
+
+ } 
+
+ 
