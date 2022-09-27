@@ -6,9 +6,7 @@ html, body{
 *{
     box-sizing: border-box;
 }
-/* .header {
-    height: 250px;
-} */
+
 .top{
     position: relative;
     background-color: #001534;
@@ -46,6 +44,10 @@ html, body{
 
 .jessica_image {
     width:19rem;
+    display: block;
+}
+.jessica_image:hover {
+    width:19.5rem;
     display: block;
 }
 .mob_view{
@@ -120,8 +122,15 @@ span.material-symbols-outlined {
 }
 .card {
 height: 100%;
+    
 }
 .dn-btn {
     display: none !important;
              
+}
+
+.card > img:hover {
+    width: 340px;
+    height: 300px;
+
 }
